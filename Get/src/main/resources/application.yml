@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: natsGet
+  server:
+    port: 8081
+endpoints:
+  health:
+    enabled: true
+nats:
+  addresses:
+    - "nats://localhost:4222"
