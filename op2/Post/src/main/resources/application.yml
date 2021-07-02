@@ -1,0 +1,6 @@
+micronaut:
+  application:
+    name: natsPost
+nats:
+  addresses:
+    - "nats://localhost:4222"
